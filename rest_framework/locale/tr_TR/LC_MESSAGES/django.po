@@ -102,7 +102,7 @@ msgstr "Sunucu hatası oluştu."
 
 #: exceptions.py:142
 msgid "Invalid input."
-msgstr ""
+msgstr "Geçersiz giriş"
 
 #: exceptions.py:161
 msgid "Malformed request."
@@ -145,12 +145,12 @@ msgstr "Üst üste çok fazla istek yapıldı."
 #: exceptions.py:224
 #, python-brace-format
 msgid "Expected available in {wait} second."
-msgstr ""
+msgstr "Lütfen {wait} saniye sonra tekrar deneyiniz."
 
 #: exceptions.py:225
 #, python-brace-format
 msgid "Expected available in {wait} seconds."
-msgstr ""
+msgstr "Lütfen {wait} saniye sonra tekrar deneyiniz."
 
 #: fields.py:316 relations.py:245 relations.py:279 validators.py:90
 #: validators.py:183
@@ -163,11 +163,11 @@ msgstr "Bu alan boş bırakılmamalı."
 
 #: fields.py:701
 msgid "Must be a valid boolean."
-msgstr ""
+msgstr "Geçerli bir boolean kullanılmalı."
 
 #: fields.py:766
 msgid "Not a valid string."
-msgstr ""
+msgstr "Geçersiz string."
 
 #: fields.py:767
 msgid "This field may not be blank."
@@ -209,7 +209,7 @@ msgstr "Geçerli bir URL girin."
 
 #: fields.py:867
 msgid "Must be a valid UUID."
-msgstr ""
+msgstr "Geçerli bir UUID olmalı."
 
 #: fields.py:903
 msgid "Enter a valid IPv4 or IPv6 address."
@@ -267,11 +267,11 @@ msgstr "Datetime değeri bekleniyor, ama date değeri geldi."
 #: fields.py:1150
 #, python-brace-format
 msgid "Invalid datetime for the timezone \"{timezone}\"."
-msgstr ""
+msgstr "\"{timezone}\" zaman dilimi için geçersiz datetime."
 
 #: fields.py:1151
 msgid "Datetime value out of range."
-msgstr ""
+msgstr "Datetime değeri aralık dışında."
 
 #: fields.py:1236
 #, python-brace-format
@@ -352,12 +352,12 @@ msgstr "Bu liste boş olmamalı."
 #: fields.py:1605
 #, python-brace-format
 msgid "Ensure this field has at least {min_length} elements."
-msgstr ""
+msgstr "Bu alan en az {min_length} uzunluğunda olmalı."
 
 #: fields.py:1606
 #, python-brace-format
 msgid "Ensure this field has no more than {max_length} elements."
-msgstr ""
+msgstr "Bu alan en fazla {max_length} uzunluğunda olmalı."
 
 #: fields.py:1682
 #, python-brace-format
@@ -466,7 +466,7 @@ msgstr ""
 
 #: schemas/utils.py:36
 msgid "unique value"
-msgstr ""
+msgstr "benzersiz değer"
 
 #: schemas/utils.py:38
 #, python-brace-format
@@ -494,7 +494,7 @@ msgstr ""
 
 #: templates/rest_framework/base.html:75
 msgid "content"
-msgstr ""
+msgstr "içerik"
 
 #: templates/rest_framework/base.html:78
 msgid "request form"
@@ -502,7 +502,7 @@ msgstr ""
 
 #: templates/rest_framework/base.html:157
 msgid "main content"
-msgstr ""
+msgstr "ana içerik"
 
 #: templates/rest_framework/base.html:173
 msgid "request info"
